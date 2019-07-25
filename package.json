@@ -4,11 +4,17 @@
   "description": "Simple way to autocomplete prompt.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "example1": "node examples/example1.js",
     "example2": "node examples/example2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["simple", "cli", "prompt", "autocomplete"],
+  "keywords": [
+    "simple",
+    "cli",
+    "prompt",
+    "autocomplete"
+  ],
   "author": "yoko0180",
   "repository": {
     "type": "git",
@@ -20,6 +26,7 @@
     "inquirer-autocomplete-prompt": "^1.0.1"
   },
   "devDependencies": {
+    "eslint": "^6.1.0",
     "faker": "^4.1.0"
   }
 }

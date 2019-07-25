@@ -1,0 +1,21 @@
+{
+  "name": "@yoko0180/prompt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example1": "node examples/example1.js",
+    "example2": "node examples/example2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.5.0",
+    "inquirer-autocomplete-prompt": "^1.0.1"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
+  }
+}

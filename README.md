@@ -13,7 +13,4 @@ prompt({
 .then(selected => {
   console.log(selected) // 'foo' or 'baa'
 })
-.catch( err => {
-  // error handling
-})
 ```

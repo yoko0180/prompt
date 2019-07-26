@@ -1,6 +1,6 @@
 # Simple prompt
 Simple way to autocomplete prompt.
-[`inquirer`](https://www.npmjs.com/package/inquirer) and `inquirer-autocomplete-prompt` wrapper.
+[`inquirer`](https://www.npmjs.com/package/inquirer) and [`inquirer-autocomplete-prompt`](https://www.npmjs.com/package/inquirer-autocomplete-prompt) wrapper.
 
 # Example
 ```js

@@ -10,7 +10,7 @@ export function promptAutocomplete({
 }: {
   message: string;
   src: any[];
-}): Promise<any> {
+}): Promise<string> {
   return inquirer
     .prompt([
       {
@@ -55,4 +55,13 @@ export function promptConfirm({
         return false;
       }
     });
+}
+
+export async function promptInput(message: string): Promise<string> {
+  const answer = await inquirer.prompt({
+    message,
+    type: 'input',
+    name: 'name',
+  });
+  return answer.name;
 }
